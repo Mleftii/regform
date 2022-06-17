@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    /* background-color: greenyellow; */
+  }
+  body{
+    background-image: url(D:\regform\bg-intro-desktop.png);
+  }
+main{
+   display: flex;
+   margin: 300px; 
+   justify-content: center;
+}
+.L{
+    flex: 50%;
+    /* margin: 250px; */
+}
+.container{
+    padding: 50px;
+    margin: -16%;
+}
+.try{
+    background-color: darkblue;
+    border-radius: 10px;
+    width: 110%;
+}
+.regform{
+   width: 100%;
+   margin-top: 0px;
+   padding:0px 0px 10px 0px;
+   flex: 50%;
+   width: 122%;
+   border-radius: 3px;
+}
+.regform form :last-child{
+    background-color: hsl(154, 59%, 51%);
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+h4{
+    padding: 10px;
+    text-align: center;
+}
+h1, h4, h5{
+color: gray;
+
+}
+p{
+color: gray;
+}
+.regform form{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+    padding: 0px;
+    margin-top: opx;
+}
+.regform form input, select{
+    display: inline-block;
+    width: 90%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid gray;
+    outline: none;
+    border-radius: 3px;
+}
+.regform form input:last-child{
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(154, 59%, 51%);
+   
+}
+.regform form input:last-child:hover{
+    background-color: transparent;
+    border: 1px solid hsl(154, 59%, 51%);;
+    cursor: pointer;
+}
